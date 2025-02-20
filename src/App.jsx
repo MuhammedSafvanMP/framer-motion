@@ -3,6 +3,7 @@ import PulsingButton from './components/PulsingButton'
 import FlippingCard from './components/FlippingCard'
 import BouncingLoader from './components/BouncingLoader'
 import GesturesAnimations from './components/GesturesAnimations'
+import AnimatedGallery from './components/AnimatedGallery'
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
      {/* <PulsingButton /> */}
      {/* <FlippingCard /> */}
      {/* <BouncingLoader /> */}
-     <GesturesAnimations />
+     {/* <GesturesAnimations /> */}
+     <AnimatedGallery />
     </div>
   )
 }
